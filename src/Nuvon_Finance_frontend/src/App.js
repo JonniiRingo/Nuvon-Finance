@@ -1,6 +1,5 @@
 import { html, render } from 'lit-html';
 import { Nuvon_Finance_backend } from 'declarations/Nuvon_Finance_backend';
-import logo from './logo2.svg';
 
 class App {
   greeting = '';
