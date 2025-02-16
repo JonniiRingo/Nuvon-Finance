@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "Nuvon_Finance_backend": {
+      "main": "src/Nuvon_Finance_backend/main.mo",
+      "type": "motoko"
+    },
+    "Nuvon_Finance_frontend": {
+      "dependencies": [
+        "Nuvon_Finance_backend"
+      ],
+      "source": [
+        "src/Nuvon_Finance_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Nuvon_Finance_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
