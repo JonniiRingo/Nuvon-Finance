@@ -4,9 +4,12 @@ import Float "mo:base/Float";
 
 actor Nuvon_Finance {
   stable var currentValue: Float = 300;
-  // currentValue := 100;
+  currentValue := 300;
+  Debug.print(debug_show(currentValue));
 
   stable var startTime = Time.now(); 
+  startTime := Time.now(); 
+
   Debug.print(debug_show(startTime)); 
 
   let id = 57854323565858765877983;
